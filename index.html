@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mar Sun - Proteção UV que acompanha sua aventura</title>
+    <meta
+      name="description"
+      content="Mar Sun - Camisetas e bermudas com proteção UV 50+. Atacado e varejo. Enviamos para todo Brasil. Praia, montanha, esportes e infantil."
+    />
+    <meta
+      name="keywords"
+      content="camiseta UV, proteção solar, bermuda UV, roupa praia, proteção UV 50, Mar Sun, atacado, varejo"
+    />
+    <meta name="author" content="Mar Sun" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Mar Sun - Proteção UV que acompanha sua aventura"
+    />
+    <meta
+      property="og:description"
+      content="Camisetas e bermudas com proteção UV 50+. Atacado e varejo. Enviamos para todo Brasil!"
+    />
+    <meta property="og:image" content="imagens/logo.jpeg" />
+    <meta property="og:url" content="https://marsun.com.br" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="imagens/logo.jpeg" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="loading-content">
+        <img src="imagens/logo.jpeg" alt="Mar Sun" class="loading-logo" />
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Carregando...</p>
+      </div>
+    </div>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a
+      href="https://wa.me/5581989651063?text=Olá! Gostaria de mais informações sobre as camisetas Mar Sun."
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Contato WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-wrapper">
+            <div class="logo">
+              <img src="imagens/logo.jpeg" alt="Mar Sun Logo" />
+            </div>
+            <ul class="nav-menu">
+              <li><a href="#home" class="nav-link active">Home</a></li>
+              <li><a href="#produtos" class="nav-link">Produtos</a></li>
+              <li><a href="#sobre" class="nav-link">Sobre</a></li>
+              <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="nav-icons">
+              <button class="icon-btn search-btn" aria-label="Buscar">
+                <i class="fas fa-search"></i>
+              </button>
+              <button class="icon-btn cart-btn" aria-label="Carrinho">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+              </button>
+              <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <video autoplay muted loop playsinline class="hero-video" preload="metadata" poster="imagens/logo.jpeg">
+        <source src="imagens/banner.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-slider">
+        <div class="hero-slide active">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="hero-title">Proteção que acompanha sua aventura</h1>
+              <p class="hero-subtitle">
+                Camisetas UV de alta qualidade para todos os momentos da sua
+                vida
+              </p>
+              <a href="#produtos" class="btn btn-primary">Explorar Produtos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Proteção UV 50+</h3>
+            <p>Máxima proteção contra raios solares nocivos</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tshirt"></i>
+            </div>
+            <h3>Tecido Premium</h3>
+            <p>Conforto e durabilidade em cada peça</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h3>Enviamos para Todo Brasil</h3>
+            <p>Entrega rápida e segura em qualquer lugar</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-water"></i>
+            </div>
+            <h3>Secagem Rápida</h3>
+            <p>Perfeito para atividades aquáticas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre a Marca -->
+    <section id="sobre" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="section-title">Sobre a Mar Sun</h2>
+            <p>
+              A <strong>Mar Sun</strong> nasceu da paixão por aventuras e da
+              necessidade de proteção inteligente. Somos uma marca brasileira
+              especializada em camisetas com proteção UV 50+, desenvolvidas para
+              acompanhar você em todos os momentos.
+            </p>
+            <p>
+              Do mar à montanha, dos esportes radicais aos passeios em família,
+              nossas camisetas combinam tecnologia de ponta, design moderno e
+              conforto incomparável.
+            </p>
+            <p>
+              <strong>Nossa missão:</strong> Proporcionar proteção solar de alta
+              qualidade sem abrir mão do estilo, permitindo que você aproveite
+              cada momento ao ar livre com segurança e confiança.
+            </p>
+            <div class="about-values">
+              <div class="value-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Qualidade Garantida</span>
+              </div>
+              <div class="value-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Design Exclusivo</span>
+              </div>
+              <div class="value-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Proteção Comprovada</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="imagens/modelo (1).jpeg" alt="Mar Sun - Sobre a Marca" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="products">
+      <div class="container">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <p class="section-subtitle">
+          Descubra a coleção perfeita para seu estilo de vida
+        </p>
+
+        <!-- Filtros -->
+        <div class="product-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="praia">Praia</button>
+          <button class="filter-btn" data-filter="esportes">Esportes</button>
+          <button class="filter-btn" data-filter="montanha">Montanha</button>
+          <button class="filter-btn" data-filter="infantil">Infantil</button>
+          <button class="filter-btn" data-filter="bermudas">Bermudas</button>
+        </div>
+
+        <!-- Grid de Produtos -->
+        <div class="products-grid">
+          <!-- Produto 8 - Montanha Performance -->
+          <div class="product-card" data-category="montanha">
+            <div class="product-image">
+              <img src="imagens/montanha (1).jpeg" alt="Camiseta UV Montanha" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Montanha Elite</h3>
+              <p class="product-description">Tecnologia para alta montanha</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="8">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 9 - Montanha Trekking -->
+          <div class="product-card" data-category="montanha">
+            <div class="product-image">
+              <img src="imagens/montanha (2).jpeg" alt="Camiseta UV Trekking" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Trekking Pro</h3>
+              <p class="product-description">
+                Resistência para longas caminhadas
+              </p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="9">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 10 - Montanha Adventure -->
+          <div class="product-card" data-category="montanha">
+            <div class="product-image">
+              <img
+                src="imagens/montanha (3).jpeg"
+                alt="Camiseta UV Adventure"
+              />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Adventure</h3>
+              <p class="product-description">Para aventureiros de plantão</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="10">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 11 - Montanha Expedition Plus Size -->
+          <div class="product-card" data-category="montanha">
+            <div class="product-image">
+              <img
+                src="imagens/montanha G(4).jpeg"
+                alt="Camiseta UV Expedition Plus Size"
+              />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Plus Size G</h3>
+              <p class="product-description">
+                Tamanhos G - Conforto e proteção
+              </p>
+              <div class="product-price">
+                <span class="price">R$ 16,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="11">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 12 - Infantil 2 -->
+          <div class="product-card" data-category="infantil">
+            <div class="product-image">
+              <img src="imagens/infantil2.jpeg" alt="Camiseta UV Infantil" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Infantil Fashion</h3>
+              <p class="product-description">Estilo e proteção para crianças</p>
+              <div class="product-price">
+                <span class="price">R$ 9,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="12">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 13 - Praia Plus Size GG -->
+          <div class="product-card" data-category="praia">
+            <div class="product-image">
+              <img src="imagens/praiagg.jpeg" alt="Camiseta UV Plus Size GG" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Plus Size GG</h3>
+              <p class="product-description">Tamanhos GG - Conforto total</p>
+              <div class="product-price">
+                <span class="price">R$ 16,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="13">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 14 - Praia Ocean -->
+          <div class="product-card" data-category="praia">
+            <div class="product-image">
+              <img src="imagens/praia (3).jpeg" alt="Camiseta UV Ocean" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Ocean</h3>
+              <p class="product-description">Inspirada nas ondas do mar</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="14">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 15 - Praia Paradise -->
+          <div class="product-card" data-category="praia">
+            <div class="product-image">
+              <img src="imagens/praia (4).jpeg" alt="Camiseta UV Paradise" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Paradise</h3>
+              <p class="product-description">Seu paraíso pessoal</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="15">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 16 - Praia Tropical -->
+          <div class="product-card" data-category="praia">
+            <div class="product-image">
+              <img src="imagens/praia (5).jpeg" alt="Camiseta UV Tropical" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Tropical</h3>
+              <p class="product-description">Vibes tropicais</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="16">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 17 - Esporte Runner -->
+          <div class="product-card" data-category="esportes">
+            <div class="product-image">
+              <img src="imagens/esporte1 (1).jpeg" alt="Camiseta UV Runner" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Runner Pro</h3>
+              <p class="product-description">Máxima performance para corrida</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="17">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 18 - Esporte Extreme -->
+          <div class="product-card" data-category="esportes">
+            <div class="product-image">
+              <img src="imagens/esporte1 (3).jpeg" alt="Camiseta UV Extreme" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Extreme Sports</h3>
+              <p class="product-description">Para esportes radicais</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="18">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 19 - Esporte Athlete -->
+          <div class="product-card" data-category="esportes">
+            <div class="product-image">
+              <img src="imagens/esporte1 (6).jpeg" alt="Camiseta UV Athlete" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Athlete Elite</h3>
+              <p class="product-description">Para atletas de elite</p>
+              <div class="product-price">
+                <span class="price">R$ 12,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="19">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 20 - Infantil Kids Adventure -->
+          <div class="product-card" data-category="infantil">
+            <div class="product-image">
+              <img src="imagens/infantil.jpeg" alt="Camiseta UV Kids" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Camiseta UV Kids Adventure</h3>
+              <p class="product-description">
+                Proteção e diversão para crianças
+              </p>
+              <div class="product-price">
+                <span class="price">R$ 9,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="20">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 21 - Bermuda P -->
+          <div class="product-card" data-category="bermudas">
+            <div class="product-image">
+              <img src="imagens/bermudap.jpeg" alt="Bermuda UV Tamanho P" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Bermuda UV Proteção Solar - P</h3>
+              <p class="product-description">Tamanho P - Conforto e proteção</p>
+              <div class="product-price">
+                <span class="price">R$ 13,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="21">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 22 - Bermuda M -->
+          <div class="product-card" data-category="bermudas">
+            <div class="product-image">
+              <img src="imagens/bermudam.jpeg" alt="Bermuda UV Tamanho M" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Bermuda UV Proteção Solar - M</h3>
+              <p class="product-description">Tamanho M - Conforto e proteção</p>
+              <div class="product-price">
+                <span class="price">R$ 13,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="22">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 23 - Bermuda G -->
+          <div class="product-card" data-category="bermudas">
+            <div class="product-image">
+              <img src="imagens/bermudag.jpeg" alt="Bermuda UV Tamanho G" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Bermuda UV Proteção Solar - G</h3>
+              <p class="product-description">Tamanho G - Conforto e proteção</p>
+              <div class="product-price">
+                <span class="price">R$ 13,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="23">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+
+          <!-- Produto 24 - Bermuda P (2) -->
+          <div class="product-card" data-category="bermudas">
+            <div class="product-image">
+              <img src="imagens/bermudap (2).jpeg" alt="Bermuda UV Tamanho P" />
+              <div class="product-badge">UV 50+</div>
+              <button class="quick-view-btn">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Bermuda UV Estilo Verão - P</h3>
+              <p class="product-description">Tamanho P - Estilo e proteção</p>
+              <div class="product-price">
+                <span class="price">R$ 13,00</span>
+              </div>
+              <button class="btn btn-add-cart" data-product="24">
+                <i class="fas fa-cart-plus"></i> Adicionar ao Carrinho
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria de Estilo de Vida -->
+    <section class="lifestyle">
+      <div class="container">
+        <h2 class="section-title">Mar Sun em Ação</h2>
+        <p class="section-subtitle">
+          Veja como nossas camisetas se adaptam ao seu estilo de vida
+        </p>
+        <div class="lifestyle-grid">
+          <div class="lifestyle-item">
+            <img src="imagens/praia (3).jpeg" alt="Lifestyle Praia" />
+            <div class="lifestyle-overlay">
+              <h3>Praia e Sol</h3>
+            </div>
+          </div>
+          <div class="lifestyle-item">
+            <img src="imagens/montanha (2).jpeg" alt="Lifestyle Montanha" />
+            <div class="lifestyle-overlay">
+              <h3>Montanha e Trilhas</h3>
+            </div>
+          </div>
+          <div class="lifestyle-item">
+            <img src="imagens/esporte1 (1).jpeg" alt="Lifestyle Esportes" />
+            <div class="lifestyle-overlay">
+              <h3>Esportes e Aventura</h3>
+            </div>
+          </div>
+          <div class="lifestyle-item">
+            <img src="imagens/infantil.jpeg" alt="Lifestyle Infantil" />
+            <div class="lifestyle-overlay">
+              <h3>Família e Diversão</h3>
+            </div>
+          </div>
+          <div class="lifestyle-item">
+            <img src="imagens/modelo (2).jpeg" alt="Lifestyle Modelos" />
+            <div class="lifestyle-overlay">
+              <h3>Estilo e Proteção</h3>
+            </div>
+          </div>
+          <div class="lifestyle-item">
+            <img src="imagens/praia (4).jpeg" alt="Lifestyle Praia 2" />
+            <div class="lifestyle-overlay">
+              <h3>Momentos Inesquecíveis</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <i
+            class="fab fa-whatsapp"
+            style="font-size: 4rem; color: #25d366; margin-bottom: 1rem"
+          ></i>
+          <h2>Tire suas dúvidas ou faça seu pedido!</h2>
+          <p>
+            Fale diretamente com a gente pelo WhatsApp. Estamos prontos para te
+            atender!
+          </p>
+          <a
+            href="https://wa.me/5581989651063?text=Olá! Gostaria de mais informações sobre as camisetas Mar Sun."
+            class="btn btn-primary"
+            target="_blank"
+            style="
+              display: inline-flex;
+              align-items: center;
+              gap: 0.8rem;
+              font-size: 1.1rem;
+            "
+          >
+            <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Fale Conosco</h3>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>(81) 98965-1063</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Santa Cruz do Capibaribe, PE - Brasil</span>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://instagram.com/uv_adulto_e_infantil"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://wa.me/5581989651063"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <form class="contact-form" id="pedidoForm">
+            <input type="text" id="nome" placeholder="Nome completo" required />
+            <input
+              type="tel"
+              id="telefone"
+              placeholder="Telefone/WhatsApp"
+              required
+            />
+            <select id="tipoCompra" required>
+              <option value="">Selecione o tipo de compra</option>
+              <option value="Varejo">Varejo</option>
+              <option value="Atacado">Atacado</option>
+            </select>
+            <input
+              type="text"
+              id="produto"
+              placeholder="Produto desejado (ex: Camiseta UV Praia)"
+              required
+            />
+            <input
+              type="number"
+              id="quantidade"
+              placeholder="Quantidade"
+              min="1"
+              required
+            />
+            <select id="tamanho">
+              <option value="">Tamanho (opcional)</option>
+              <option value="P">P</option>
+              <option value="M">M</option>
+              <option value="G">G</option>
+              <option value="GG">GG</option>
+              <option value="Infantil">Infantil</option>
+            </select>
+            <textarea
+              id="observacoes"
+              placeholder="Observações adicionais (cores, detalhes, etc.)"
+              rows="4"
+            ></textarea>
+            <button type="submit" class="btn btn-primary">
+              <i class="fab fa-whatsapp"></i> Enviar Pedido via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <img
+              src="imagens/logo.jpeg"
+              alt="Mar Sun Logo"
+              class="footer-logo"
+            />
+            <p>Proteção que acompanha sua aventura</p>
+          </div>
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Ajuda</h4>
+            <ul>
+              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="#">Termos de Uso</a></li>
+              <li><a href="#">Trocas e Devoluções</a></li>
+              <li><a href="#">Perguntas Frequentes</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Pagamento e Segurança</h4>
+            <div class="payment-icons">
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+              <i class="fas fa-money-bill-wave"></i>
+              <i class="fab fa-pix"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Mar Sun. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Carrinho Lateral -->
+    <div class="cart-sidebar">
+      <div class="cart-header">
+        <h3>Carrinho de Compras</h3>
+        <button class="close-cart-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <p class="empty-cart">Seu carrinho está vazio</p>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span class="total-price">R$ 0,00</span>
+        </div>
+        <button class="btn btn-primary btn-checkout">Finalizar Compra</button>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
