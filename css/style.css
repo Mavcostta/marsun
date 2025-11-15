@@ -587,7 +587,7 @@ ul {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease, opacity 0.3s ease;
-  background: #f0f0f0; /* Placeholder enquanto carrega */
+  background: #f0f0f0;
 }
 
 .product-image img[data-src] {
@@ -663,7 +663,7 @@ ul {
   color: var(--primary-color);
 }
 
-/* Lifestyle Gallery */
+
 .lifestyle {
   padding: 5rem 0;
 }
